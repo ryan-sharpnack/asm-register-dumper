@@ -53,3 +53,10 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# --- Assembly & Low-Level Specific Overrides ---
+*.lst          # Assembler listing files (e.g., from nasm -l)
+*.sym          # Symbol maps for debugging
+*.map          # Linker map files
+*.bin          # Raw binary payloads/dumps
+*.dump         # Manual register/memory state dumps
