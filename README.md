@@ -1,4 +1,4 @@
-# Lab 3: Custom CPU Register State Dumper
+# Project 3: Custom CPU Register State Dumper
 
 ## Technical Objective
 Uses x86-64 inline assembly to capture and print the live values of RAX, RBX, RSP, and RIP in a GDB-style register dump.
